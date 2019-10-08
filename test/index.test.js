@@ -5,4 +5,11 @@
 // create a function
 // takes price, VAT and tip rate as numbers
 // retuns the total ammout formated as a currency string
-// ( amount + (amount * vat / 100) ) + tip )
+// calculation should be -> amount + (amount * vat / 100) ) + tip 
+
+
+test("calculateBill is a function", () => {
+    
+  expect(calculateBill).toBeDefined();
+});
+
