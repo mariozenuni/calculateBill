@@ -1,3 +1,3 @@
-const calculateBill = () => ''
+const calculateBill = () => {}
 
 module.exports =  calculateBill;
