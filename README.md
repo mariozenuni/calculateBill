@@ -65,6 +65,6 @@ Keep a terminal window open and run your test by doing `npm test` or `npm t`
     * Jest: https://jestjs.io/  
     * Test driven development (TDD): https://medium.com/javascript-scene/tdd-changed-my-life-5af0ce099f80 AND https://www.freecodecamp.org/news/  an-introduction-to-test-driven-development-c4de6dce5c/  
     * Git ignore: https://git-scm.com/docs/gitignore  
-    * package.json: https://flaviocopes.com/package-json/ 
+    * package.json: https://flaviocopes.com/package-json/   
     * module.exports and require: https://www.sitepoint.com/understanding-module-exports-exports-node-js/
 
