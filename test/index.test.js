@@ -26,3 +26,28 @@ test('it returns the right ammount', () => {
 
     expect(calculateBill(price, vat, tip)).toBe('£130');
 })
+
+test('if price is not a number returns an error string', () => {
+    const price = "100";
+    const errorMessage = "error";
+
+    expect(calculateBill(price)).toBe(errorMessage);
+})
+
+test('if vat is not a number returns an error string', () => {
+    const price = 100;
+    const vat = undefined
+    const errorMessage = "error";
+
+    expect(calculateBill(price, vat)).toBe(errorMessage);
+})
+
+test('if tip is not a number returns an error string', () => {
+    const price = 100;
+    const vat = 20
+    const tip = null;
+
+    const errorMessage = "error";
+
+    expect(calculateBill(price, vat, null)).toBe(errorMessage);
+})
