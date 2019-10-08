@@ -55,7 +55,10 @@
 
 12 - We will now start writing our first test (in `index.test.js`) and then implement the 
 
-13 - Follow the commit path and notice how commits can signpost changes in code and testing/implementation steps. 
+13 - Follow the commit path and notice how commits can signpost changes in code and testing/implementation steps. You can check what changed with each step by clicking on the hash button (the middle button of the three next to each commit). Commits are ordered from most recent to oldest.
+
+    https://github.com/MCRcodes/calculate-bill-kata/commits
+
 Keep a terminal window open and run your test by doing `npm test` or `npm t`
 
 14 - Things to nose at:  
