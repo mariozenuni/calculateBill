@@ -12,11 +12,11 @@
 
     cd calculate-bill-kata
 
-3 - Initialise your kata folder/directory as a git repository (notice the *.git* file when you do `ls -a` on your project directory after the command runs)
+3 - Initialise your kata folder/directory as a git repository by running the command below (notice the *.git* file when you do `ls -a` on your project directory after the command runs)
 
     git init
 
-4 - Initialise your kata folder/directory as a node project and press *enter* for each option so it accepts the default, except on `test` which we will complete with the string `jest` (notice the *package.json* file when you do `ls` on your project directory after the command runs)
+4 - Initialise your kata folder/directory as a node project by running the command below and press *enter* for each option so it accepts the default, except on `test` which we will complete with the string `jest` (notice the *package.json* file when you do `ls` on your project directory after the command runs)
 
     npm init
 
