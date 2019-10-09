@@ -39,7 +39,7 @@
 
 9 - Add the `node_modules` directory to the `.gitignore file. This means that the installed dependencies will not be pushed to github
 
-10 - Inspect the `package.json` file. Check that there's a test script that refers to jest and update it like so:
+10 - Inspect the `package.json` file. Check that there's a test script that refers to jest, if there's not update it like so:
 
     {
         "scripts": {
