@@ -4,64 +4,51 @@
 
 ## Step by step
 
-1 - Create a folder/directory to home your kata in, eg *calculate-bill-kata*
+1. Fork this repo to your account
 
-    mkdir calculate-bill-kata
+1. Clone down the repo:
 
-2 -  Access the folder/directory you just created
+    ```bash
+        git clone <YOUR_BRANCH_URL>
+    ```
 
-    cd calculate-bill-kata
+2. Open the repo in you terminal:
 
-3 - Initialise your kata folder/directory as a git repository by running the command below (notice the *.git* file when you do `ls -a` on your project directory after the command runs)
+    ```bash
+        cd calculate-bill-kata
+    ```
 
-    git init
+3. Install the project:
 
-4 - Initialise your kata folder/directory as a node project by running the command below and press *enter* for each option so it accepts the default, except on `test` which we will complete with the string `jest` (notice the *package.json* file when you do `ls` on your project directory after the command runs)
+    ```bash
+    npm i # shorter version of npm install
+    ```
 
-    npm init
+4. Run the tests:
 
-5 - Install the standard node dependencies for every node project by running `npm install` or `npm i` (notice the *node_modules* folder when you do `ls` on your project directory after the finishes running)
+    ```bash
+    npm test # they will fail to run. We haven't written any code yet.
+    ```
 
-    npm install
+8. Open VSCode by typing `code .` or by opening it mannually and navigating to the kata folder/directory
 
-6 - Install `jest`, a non-standard node dependency that will help us with our testing
+12. In `index.html`, declare a function called `calculateBill`. Leave the function body empty for now. `Export` your function at the bottom of the file with:
 
-    npm install jest --dev
+    ```js
+    module.exports = calculateBill;
+    ```
 
-7 - Create some files - `index.js` (entry point to our kata, notice the extension), `.gitignore` (notice the `.`) and a directory named `test` with a file inside `index.test.js` (the file where our tests will reside)
+1. Commit and push your work to github
 
-    touch index.js
-    touch .gitignore
-    mkdir test
-    touch test/index.test.js
-
-8 - Open VSCode by typing `code .` or by opening it mannually and navigating to the kata folder/directory
-
-9 - Add the `node_modules` directory to the `.gitignore file. This means that the installed dependencies will not be pushed to github
-
-10 - Inspect the `package.json` file. Check that there's a test script that refers to jest, if there's not update it like so:
-
-    {
-        "scripts": {
-            "test": "jest --watch"
-        }
-    }
-
-11 - Look at the task at hand - can you write it in `pseudocode`? Which steps would it take? Maybe something like:
+11. Look at `test/index.test.js`, what is the first test expexting? - can you write it in `pseudocode`? Which steps would it take? Maybe something like:
 
     // create a function
     // this function will have to have 3 arguments - amount, vat and tip?
     // this function will have to return a string with a currency sign
 
-12 - We will now start writing our first test (in `index.test.js`) and then implement the 
+13. Write the code to pass the first test. Keep a terminal window open and run your test by doing `npm test` or `npm t`
 
-13 - Follow the commit path and notice how commits can signpost changes in code and testing/implementation steps. You can check what changed with each step by clicking on the hash button (the middle button of the three next to each commit). Commits are ordered from most recent to oldest.
-
-    https://github.com/MCRcodes/calculate-bill-kata/commits
-
-Keep a terminal window open and run your test by doing `npm test` or `npm t`
-
-14 - Things to nose at:  
+14. Things to nose at:  
     * Jest: https://jestjs.io/  
     * Test driven development (TDD): https://medium.com/javascript-scene/tdd-changed-my-life-5af0ce099f80 AND https://www.freecodecamp.org/news/  an-introduction-to-test-driven-development-c4de6dce5c/  
     * Git ignore: https://git-scm.com/docs/gitignore  
