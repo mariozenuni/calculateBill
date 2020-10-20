@@ -40,7 +40,7 @@
 
 1. Commit and push your work to github
 
-11. Look at `test/index.test.js`, what is the first test expexting? - can you write it in `pseudocode`? Which steps would it take? Maybe something like:
+11. Look at `test/index.test.js`, what is the first test expecting? - can you write it in `pseudocode`? Which steps would it take? Maybe something like:
 ```js
     // create a function
     // this function will have to have 3 arguments - amount, vat and tip?
