@@ -32,7 +32,7 @@
 
 8. Open VSCode by typing `code .` or by opening it mannually and navigating to the kata folder/directory
 
-12. In `index.html`, declare a function called `calculateBill`. Leave the function body empty for now. `Export` your function at the bottom of the file with:
+12. In `index.js`, declare a function called `calculateBill`. Leave the function body empty for now. `Export` your function at the bottom of the file with:
 
     ```js
     module.exports = calculateBill;
